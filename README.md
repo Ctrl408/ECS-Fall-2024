@@ -23,10 +23,7 @@ To set up the project on your local machine, follow these steps:
    pip install PyQt5 pyqtgraph qdarkstyle pyserial
    ```
 
-3. **Install the required packages: Make sure you have Python installed, then run:**:
-   ```bash
-   pip install PyQt5 pyqtgraph qdarkstyle pyserial
-   ```
+
 
 
 
