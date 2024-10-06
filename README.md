@@ -28,3 +28,48 @@ To set up the project on your local machine, follow these steps:
    pip install PyQt5 pyqtgraph qdarkstyle pyserial
    ```
 
+
+
+
+# JSON File Usage for Dosage Management
+
+## Overview
+
+The application uses a JSON file to manage and store medication dosage protocols. This allows for easy customization and flexibility in administering medications based on specific seizure detection events.
+
+## Dosage JSON Structure
+
+The JSON file should be structured as follows:
+
+```json
+{
+  "medications": [
+    {
+      "name": "MedicationA",
+      "dosage": "500mg",
+      "route": "oral",
+      "schedule": [
+        {
+          "time": "08:00",
+          "dose": "500mg"
+        },
+        {
+          "time": "20:00",
+          "dose": "500mg"
+        }
+      ]
+    },
+    {
+      "name": "MedicationB",
+      "dosage": "250mg",
+      "route": "intravenous",
+      "schedule": [
+        {
+          "time": "12:00",
+          "dose": "250mg"
+        }
+      ]
+    }
+  ]
+}
+
